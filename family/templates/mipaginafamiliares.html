@@ -1,0 +1,10 @@
+<h1>My Family ❤</h1>
+
+{% for member in members %}
+
+<h2>✅</h2>
+<h2>El nombre del familiar es: {{ member.name }} {{member.last_name}}</h2>
+<h2>La edad de mi familiar es: {{ member.age }}</h2>
+<h2>El cumpleaños de mi familiar es: {{ member.birth_date }}</h2>
+
+{% endfor %}
